@@ -18,18 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Switch sw = findViewById(R.id.sw);
 
 
-        sw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {
-                    im.setImageResource(R.drawable.yaa);
-                } else {
-
-                    im.setImageResource(R.drawable.before);
-                }
-            }
-
-
-        });
+        
 
 
     }
